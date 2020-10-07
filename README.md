@@ -5,10 +5,13 @@ in RGB hexadecimal format.
 
 ### Usage
 The program can be run by providing it with the input and output file path, and 
-an optional resolver and or processor worker count: 
+an optional worker count:
 ```
-./prevalentify --input input.txt --output output.csv --resolvers 30 --processors 10
-Processed: 312 images
+cd cmd/prevalentify/
+$ go run main.go --input="input.txt" --output="output.csv" --workers=5
+2020/10/07 00:33:18 starting to process input.txt
+2020/10/07 00:33:19 processing complete, see output results in output.csv
+
 ```
 
 
