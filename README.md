@@ -1,4 +1,4 @@
-# Prevalentify 
+# Prevalentify ![report card](https://goreportcard.com/badge/github.com/mdanzinger/prevalentify)
 
 Prevalentify processes a list of images URLS and returns the most prevalent colors 
 in RGB hexadecimal format. 
